@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="chracter-overview" src="project://database/Assets/UI/chracter-overview.uxml?fileID=9197481963319205126&amp;guid=441febc3e64e73e48a2e399dc7e6b816&amp;type=3#chracter-overview" />
+    <ui:Template name="Inventory" src="project://database/Assets/UI/Inventory.uxml?fileID=9197481963319205126&amp;guid=92be0c918ebfeb245ad6ae4a21d40e64&amp;type=3#Inventory" />
+    <ui:Template name="equip-slot-modify" src="project://database/Assets/UI/equip-slot-modify.uxml?fileID=9197481963319205126&amp;guid=0f17935a56a9ffa458a9ed7129d4b010&amp;type=3#equip-slot-modify" />
+    <ui:VisualElement name="MENU" style="flex-grow: 1; background-color: rgb(56, 56, 56); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; flex-direction: row; height: 30px; max-height: 30px;">
+        <ui:Button text="BUILD" parse-escape-sequences="true" display-tooltip-when-elided="true" name="toggle-build-button" style="background-color: rgb(211, 171, 171);" />
+        <ui:Button text="INSPECT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="toggle-inspect-button" style="border-left-color: rgb(58, 138, 112); border-right-color: rgb(58, 138, 112); border-top-color: rgb(58, 138, 112); border-bottom-color: rgb(58, 138, 112); background-color: rgb(201, 232, 222);" />
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="INSPECT-WINDOW" style="flex-grow: 0; width: 40%; background-color: rgb(201, 232, 222);">
+            <ui:Label tabindex="-1" text="Body" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(7, 7, 7); border-right-color: rgb(7, 7, 7); border-top-color: rgb(7, 7, 7); border-bottom-color: rgb(7, 7, 7);" />
+            <ui:VisualElement name="body" style="flex-grow: 1; flex-direction: row; height: 65%;">
+                <ui:VisualElement name="parts" style="flex-grow: 1; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); width: 60%;">
+                    <ui:Label tabindex="-1" text="Parts" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+                    <ui:VisualElement name="parts-root" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="container" style="flex-grow: 1; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); width: 35%;">
+                    <ui:Label tabindex="-1" text="Container" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+                    <ui:VisualElement name="container-root" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Actions" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; border-left-color: rgb(20, 19, 19); border-right-color: rgb(20, 19, 19); border-top-color: rgb(20, 19, 19); border-bottom-color: rgb(20, 19, 19); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;" />
+            <ui:VisualElement name="actions-root" style="flex-grow: 1; height: 20%; flex-direction: row;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BUILD-WINDOW" style="flex-grow: 1; flex-direction: row-reverse; background-color: rgb(211, 171, 171);">
+            <ui:VisualElement style="flex-grow: 0; width: 40%; max-width: 30%; height: 80%;">
+                <ui:Instance template="chracter-overview" name="character-builder" style="flex-grow: 1; background-color: rgb(211, 171, 171); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(56, 56, 56); border-right-color: rgb(56, 56, 56); border-top-color: rgb(56, 56, 56); border-bottom-color: rgb(56, 56, 56);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; flex-shrink: 0; width: 350px;">
+                <ui:VisualElement name="BLUEPRINT-BUTTONS" style="flex-grow: 1; flex-direction: row;">
+                    <ui:Button text="LOAD BLUEPRINT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="load-button" style="width: 30%; font-size: 10px; background-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(56, 56, 56); border-right-color: rgb(56, 56, 56); border-top-color: rgb(56, 56, 56); border-bottom-color: rgb(56, 56, 56);" />
+                    <ui:Button text="SAVE BLUEPRINT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="save-button" style="width: 30%; font-size: 10px; background-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(56, 56, 56); border-right-color: rgb(56, 56, 56); border-top-color: rgb(56, 56, 56); border-bottom-color: rgb(56, 56, 56);" />
+                    <ui:Button text="NEW BLUEPRINT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="new-button" style="width: 30%; font-size: 10px; background-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(56, 56, 56); border-right-color: rgb(56, 56, 56); border-top-color: rgb(56, 56, 56); border-bottom-color: rgb(56, 56, 56);" />
+                </ui:VisualElement>
+                <ui:Instance template="Inventory" name="inventory" style="flex-direction: row; height: 60%; background-color: rgba(211, 171, 171, 0);" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgba(242, 242, 242, 0.65); flex-shrink: 0;">
+                    <ui:Instance template="equip-slot-modify" name="inspector" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

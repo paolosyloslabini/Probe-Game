@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="equip-slot-fixed" src="project://database/Assets/UI/equip-slot-fixed.uxml?fileID=9197481963319205126&amp;guid=37bc869ce08e03941b8036357c2ef638&amp;type=3#equip-slot-fixed" />
+    <ui:VisualElement style="flex-grow: 1; width: 100%;">
+        <ui:Label tabindex="-1" text="BODY" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; background-color: rgb(255, 255, 255);" />
+        <ui:VisualElement style="flex-grow: 1; height: 40%; flex-direction: row; align-items: center; justify-content: space-around; align-self: stretch; background-color: rgb(9, 0, 0); border-left-color: rgb(247, 238, 238); border-right-color: rgb(247, 238, 238); border-top-color: rgb(247, 238, 238); border-bottom-color: rgb(247, 238, 238); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+            <ui:Instance template="equip-slot-fixed" name="blueprint" style="flex-direction: column; height: 80px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="pieces" style="flex-grow: 1; height: 50%; flex-direction: row; flex-wrap: wrap;" />
+        <ui:Label tabindex="-1" text="ACTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; background-color: rgb(255, 255, 255); width: 100%;" />
+        <ui:VisualElement name="actions" style="flex-grow: 0; flex-direction: row; height: 25%; flex-shrink: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

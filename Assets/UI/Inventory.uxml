@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 0; height: 270px; flex-shrink: 0; width: 325px;">
+        <ui:VisualElement name="SlotContainer" style="flex-grow: 0; flex-direction: row; flex-wrap: wrap; width: 325px; height: 250px; flex-shrink: 0; background-color: rgb(56, 56, 56);" />
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+            <ui:Button text="Actions" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-actions" style="flex-grow: 1;" />
+            <ui:Button text="Pieces" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-pieces" style="flex-grow: 1;" />
+            <ui:Button text="Blueprints" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-blueprints" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

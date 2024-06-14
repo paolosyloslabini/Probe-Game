@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b5f37f5238b8c4e8f443207c7f38f4, type: 3}
+  m_Name: Hill
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  available: 1
+  avgHeight: 2
+  varHeight: 1
+  maxResourcesDict:
+    energy: 0
+    iron: 100
+    copper: 100
+    diamond: 100
+  startResourcesDict:
+    energy: 0
+    iron: 50
+    copper: 0
+    diamond: 0
+  topColor: {r: 0.21180703, g: 0.4264151, b: 0.16976145, a: 1}
+  sideColor: {r: 0.37647063, g: 0.37647063, b: 0.37647063, a: 1}

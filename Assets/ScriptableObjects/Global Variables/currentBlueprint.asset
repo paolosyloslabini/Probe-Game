@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e3d76f18ae05146be1e7638e08a7f4, type: 3}
+  m_Name: currentBlueprint
+  m_EditorClassIdentifier: 
+  value:
+    name: Basic Blueprint
+    pieces:
+    - {fileID: 11400000, guid: 65d9b38fccde24d40a65413a8c1827f2, type: 2}
+    - {fileID: 11400000, guid: ff564bebe8785d34f9fe648fc2808cec, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    activeActions: []
+    blueprintSO: {fileID: 11400000, guid: 4e1204c01e1528b4abdb884bd62d9d9a, type: 2}
+  lastValue:
+    name: Basic Blueprint
+    pieces:
+    - {fileID: 11400000, guid: 60e18a2a814d9b8478bce44a9ae763b3, type: 2}
+    - {fileID: 11400000, guid: 23b3fb6c86b6f7a4baf62e53bfd12100, type: 2}
+    - {fileID: 11400000, guid: bf7fba30acce5b440a1c898dd1ad1486, type: 2}
+    - {fileID: 11400000, guid: 23b3fb6c86b6f7a4baf62e53bfd12100, type: 2}
+    activeActions:
+    - {fileID: 11400000, guid: d6d75dd609024db4b8a10c9b6a2d9d20, type: 2}
+    - {fileID: 11400000, guid: d6d75dd609024db4b8a10c9b6a2d9d20, type: 2}
+    - {fileID: 11400000, guid: d6d75dd609024db4b8a10c9b6a2d9d20, type: 2}
+    blueprintSO: {fileID: 11400000, guid: 4e1204c01e1528b4abdb884bd62d9d9a, type: 2}

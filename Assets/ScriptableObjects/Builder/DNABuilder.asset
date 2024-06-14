@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3bae1129201804cbd1c2bb355925d9, type: 3}
+  m_Name: DNABuilder
+  m_EditorClassIdentifier: 
+  savedBlueprints:
+  - name: Basic Blueprint
+    pieces:
+    - {fileID: 11400000, guid: 65d9b38fccde24d40a65413a8c1827f2, type: 2}
+    - {fileID: 11400000, guid: ff564bebe8785d34f9fe648fc2808cec, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    actions:
+    - {fileID: 11400000, guid: d6d75dd609024db4b8a10c9b6a2d9d20, type: 2}
+    blueprintSO: {fileID: 11400000, guid: 4e1204c01e1528b4abdb884bd62d9d9a, type: 2}
+  - name: Basic Blueprint
+    pieces:
+    - {fileID: 11400000, guid: 65d9b38fccde24d40a65413a8c1827f2, type: 2}
+    - {fileID: 11400000, guid: ff564bebe8785d34f9fe648fc2808cec, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    actions:
+    - {fileID: 11400000, guid: d6d75dd609024db4b8a10c9b6a2d9d20, type: 2}
+    blueprintSO: {fileID: 11400000, guid: 4e1204c01e1528b4abdb884bd62d9d9a, type: 2}
+  - name: Meow
+    pieces:
+    - {fileID: 11400000, guid: 65d9b38fccde24d40a65413a8c1827f2, type: 2}
+    - {fileID: 11400000, guid: ff564bebe8785d34f9fe648fc2808cec, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    - {fileID: 11400000, guid: 940b6d9576879ec4f921eb55615c412a, type: 2}
+    actions:
+    - {fileID: 11400000, guid: d6d75dd609024db4b8a10c9b6a2d9d20, type: 2}
+    blueprintSO: {fileID: 11400000, guid: 4e1204c01e1528b4abdb884bd62d9d9a, type: 2}
+  activeActionsSOs: []
+  buildableBlueprintSOs:
+  - {fileID: 11400000, guid: 4e1204c01e1528b4abdb884bd62d9d9a, type: 2}
+  _currentBlueprintGlobal: {fileID: 11400000, guid: e74a208810f24314c9aa2c667cce3e3c, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7320be3a8b4e9ae49a891f80d4f9acd5, type: 3}
+  m_Name: ActionCollectIron
+  m_EditorClassIdentifier: 
+  <Sprite>k__BackingField: {fileID: 21300000, guid: e62b634865473794ba790372ede543ae, type: 3}
+  <Name>k__BackingField: ActionCollectIron
+  <Description>k__BackingField: Action lacks a description.
+  actionTags: 00000000
+  conditions:
+  - {fileID: 11400000, guid: 54280517aecf9c2458e7a7235092635e, type: 2}
+  effects:
+  - {fileID: 11400000, guid: da2c93f55f63e7640a94b380a7702248, type: 2}
+  logic: 0
+  costs: []
+  cost:
+    energy: 5
+    iron: 0
+    copper: 0
+    diamond: 0
+  alternativeEffects: []
